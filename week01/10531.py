@@ -3,24 +3,25 @@ a = int(input(''))
 list1 = list(map(int, input('').split(' ')))
 # 0 11 22 33 55 66 77 99 88 44
 list1.sort()
-
+mx = 101
+mi = -1
 for i in list1:
     print(i,end = ' ')
+    if i >= 60 and i < mx:
+        mx = i
+    elif i < 60 and i > mi:
+        mi = i
 print()    
 
-for i in reversed(list1):
-    if i < 60:
-        print(i)
-        break
-    elif i == list1[0]:
-        print('best case')
+if mi == -1:
+    print('best case')
+else:
+    print(mi)
 
-for i in list1:
-    if i >= 60:
-        print(i)
-        break
-    elif i == list1[-1]:
-        print('worst case')
+if mx == 101:
+    print('worst case')
+else:
+    print(mx)  
 #ZEROJUDGE
 """
 您的答案為: best ca ...略
