@@ -1,46 +1,30 @@
-ans = []
 """
-  @@@@@
-   ######                    1
-%%%%%%                       2
-  &&                         3
-!!!!!!!!!                    4
-                $$$$         5
+i
+@@@@@@@@
+i-1
+  #########                1
+  %%%                      2
+&&&&&&&&                   3
+                $$$$       4
 """
-while True:
+answer = 0
+while True: 
     try:
         ans = []
         n = int(input(''))
         for i in range(n):
-            temp = list(map(int, input().split(' ')))
-            
-            if len(ans) == 0:
-                ans.append(temp)
-            else:
-                test = False
-                for i in ans:
-                    if temp[0] < i[0] and (temp[1] > i[0] and temp[1] <i[1]):
-                        i[0] = temp[0]
-                        test = True
-                        
-                    elif temp[1] > i[1] and (temp[0] > i[0] and temp[0] < i[1]):
-                        i[1] = temp[1]
-                        test = True
-                        
-                    elif temp[0] > i[0] and temp[1] < i[1]:
-                        test = True
-                        
-                    elif temp[0] < i[0] and i[1] < temp[1]:
-                        i[0] = temp[0]
-                        i[1] = temp[1]
-                    elif test == False:
-                        ans.append(temp)
-                        test = True
-                        
-
-        """ count """
-        answer = 0
+            f,n = list(map(int, input().split(' ')))
+            ans.append([f,n])
+        ans.sort()
+        for i in range(1, len(ans)):
+            if (ans[i][0] <= ans[i-1][0]) and (ans[i][1] < ans[i-1][1]): #1
+                ans[i][1] = ans[i-1][1]
+                ans.remove(ans[i-1])
+            elif ans[i][1] <= ans[i-1][0]: #4 ok
+                pass
+#count
         for i in ans:
             answer += (i[1] - i[0])
+        print(answer)
     except Exception:
         break
