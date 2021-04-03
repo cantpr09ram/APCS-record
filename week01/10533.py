@@ -42,7 +42,5 @@ while True:
         answer = 0
         for i in ans:
             answer += (i[1] - i[0])
-
-        print(answer)
     except Exception:
         break
