@@ -22,14 +22,3 @@ if mx == 101:
     print('worst case')
 else:
     print(mx)  
-#ZEROJUDGE
-"""
-您的答案為: best ca ...略
-正確答案為: 80
-
-您的答案為: best cas ...略
-正確答案為: 100
-
-請勿輸出題目未要求的文字: 
-worst case
-"""
