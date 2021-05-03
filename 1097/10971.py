@@ -1,8 +1,8 @@
-n, m, k = map(int, input('').split(' '))
-people = [i for i in range(n)]
-die = 0
-for i in range(k):
-    die = (die + m - 1)%len(people)
-    people.pop(die)
-
-print(people[(die + m - 1)%len(people)])
+a, b = map(int, input('').split(' '))
+n = int(input(''))
+ans = 0
+for i in range(n):
+    shop = [int(i) for i in input('').split(' ') if abs(int(i)) == a or b]
+    if shop.count(a) > shop.count(-a) and shop.count(b) > shop.count(-b):
+        ans += 1
+print(ans)
