@@ -1,13 +1,8 @@
 n, m, k = map(int, input('').split(' '))
-ans = [i for i in range(1, n+1)]
-
+people = [i+1 for i in range(n)]
 die = 0
-while (k != 0):
-    die = (die + m) % n
-    n =- 1
-    print(die)
-    ans.remove(die)
-    die %= die
-    k-1
-    if k == 0:
-        print(die)
+for i in range(k):
+    die = (die + m - 1)%len(people)
+    people.pop(die)
+
+print(people[(die)%len(people)])
