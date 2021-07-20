@@ -3,25 +3,25 @@
 # Record
 |Date|Question|Zero judeg|Solution|
 |---|---|--|---|
-|105/03/05|成績指標||✅|
-|105/03/05|矩陣轉換||⚠|
-|105/03/05|線段覆蓋長度||⚠|
-|105/03/05|血緣關係||⛔|
-|105/10/29|三角形辨識||✅|
-|105/10/29|最大和||✅|
-|105/10/29|定時k彈||✅|
-|105/10/29|棒球遊戲||⛔|
-|106/03/04|秘密差||✅|
-|106/03/04|小群體||⛔|
-|106/03/04|數字龍捲風||⛔|
-|106/03/04|基地台||⛔|
-|106/10/28|邏輯運算子||⛔|
-|106/10/28|交錯字串||⚠|
-|106/10/28|樹狀圖分析||⛔|
-|106/10/28|物品堆疊||⛔|
+|105/03/05|成績指標|[b964](https://zerojudge.tw/ShowProblem?problemid=b964)|✅|
+|105/03/05|矩陣轉換|[b266](https://zerojudge.tw/ShowProblem?problemid=b266)|⚠|
+|105/03/05|線段覆蓋長度|[b966](https://zerojudge.tw/ShowProblem?problemid=b966)|⚠|
+|105/03/05|血緣關係|[b967](https://zerojudge.tw/ShowProblem?problemid=b967)|⛔|
+|105/10/29|三角形辨識|[c294](https://zerojudge.tw/ShowProblem?problemid=c294)|✅|
+|105/10/29|最大和|[c295](https://zerojudge.tw/ShowProblem?problemid=c295)|✅|
+|105/10/29|定時k彈|[c296](https://zerojudge.tw/ShowProblem?problemid=c296)|✅|
+|105/10/29|棒球遊戲|[c297](https://zerojudge.tw/ShowProblem?problemid=c297)|⛔|
+|106/03/04|秘密差|[c290](https://zerojudge.tw/ShowProblem?problemid=c290)|✅|
+|106/03/04|小群體|[c291](https://zerojudge.tw/ShowProblem?problemid=c291)|⛔|
+|106/03/04|數字龍捲風|[c292](https://zerojudge.tw/ShowProblem?problemid=c292)|⛔|
+|106/03/04|基地台|[c575](https://zerojudge.tw/ShowProblem?problemid=c575)|⛔|
+|106/10/28|邏輯運算子|[c461](https://zerojudge.tw/ShowProblem?problemid=c461)|⚠|
+|106/10/28|交錯字串|[c462](https://zerojudge.tw/ShowProblem?problemid=c462)|⚠|
+|106/10/28|樹狀圖分析|[c463](https://zerojudge.tw/ShowProblem?problemid=c463)|⛔|
+|106/10/28|物品堆疊|[f638](https://zerojudge.tw/ShowProblem?problemid=c471)|⛔|
 |107/02|||🈚|
 |107/02|||🈚|
-|107/02|支點切割||⛔|
+|107/02|支點切割|[c461](https://zerojudge.tw/ShowProblem?problemid=f638)|⛔|
 |107/02|階梯數字||⛔|
 |107/06|||🈚|
 |107/06|||🈚|
