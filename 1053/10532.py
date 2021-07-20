@@ -1,36 +1,30 @@
-def abc(a : list) -> list:#翻轉
-    return reversed(a)
-
-def efg(a : list, x : int ,y : int) -> list:#旋轉
-    b = [[0 for i in range(y)] for j in range(x)]
-    for i in range(len(a)):
-        for j in range(len(a[0])):
-            b[j][i] = a [i][j]
-    return reversed(b)
 while True:
     try:
-        d = [int(i) for i in input('').split(' ')]
-        r = d[0]
-        c = d[1]
-        m = d[2]
-
+        r, c, m = map(int,input('').split(' '))
         list1 = []
         for i in range(r):
-            temp = list(input('').split(' '))
-            list1.append(temp)
-
+            list1.append(list(map(int,input('').split(' '))))
+        
+        print(list1)
+    
         act = [int(i) for i in input('').split(' ')]
 
         for i in reversed(act):
             if i == 1:
-                list1 = abc(list1)
+                list1.reverse()
             else:
-                list1 = efg(list1,len(list1),len(list1[0]))
+                b = []
+                for i in range(c-1, -1, -1):
+                    b.append([])
+                    for j in range(r):
+                        b[-1].append(list1[j][i])
+                c, r = r, c
+                list1 = b
 
-        print(f'{len(list1)} {len(list1[0])}')
-        for i in range(len(list1)):
-            for j in range(len(list1[0])):
+        print(f'{r} {c}')
+        for i in range(r):
+            for j in range(c):
                 print(list1[i][j],end = ' ')
             print()
-    except Exception:
+    except :
         pass
