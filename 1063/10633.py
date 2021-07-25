@@ -26,16 +26,21 @@ ans = ''
 1.轉彎的時間
 2.加步數的時間
 '''
+y = 0
 while True:
-    for j in range(2):
-        for k in range(limit):
-            if len(arr) == 0:
-                break
-            else:
-                x = arr[numdirx][numdiry]
-                arr.remove(0)
-                print(x)
-                numdirx += dit_list[dirction][0]
-                numdiry += dit_list[dirction][1]
-        dirction = (dirction + 1) % 4
-    limit += 1
+    if y == a**2:
+        break
+    else:
+        for j in range(2):
+            for k in range(limit):
+                if y == a**2:
+                    break
+                else:
+                    x = arr[numdirx][numdiry]
+                    y += 1
+                    ans += str(x)
+                    numdirx += dit_list[dirction][0]
+                    numdiry += dit_list[dirction][1]
+            dirction = (dirction + 1) % 4
+        limit += 1
+print(ans)
