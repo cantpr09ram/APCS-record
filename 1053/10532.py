@@ -25,6 +25,8 @@ while True:
         for i in range(r):
             for j in range(c):
                 print(list1[i][j],end = ' ')
+            if i != r-1:
+                print()
             print()
     except :
         pass

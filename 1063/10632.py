@@ -2,21 +2,14 @@ n = int(input(''))
 group = [int(i) for i in input('').split(' ')]
 friend = 0
 
-for i in range(len(group)):
-    a = group[i]
-    fri = []
-    test = True
-    while test:
-        f = group[a]
-        if i == f:
-            friend += 1
-            group.pop(a)
-            for j in fri:
-                group.pop(j)
-            fri.clear()
-            test = False
-        else:
-            fri.append(f)
-            a = f
-    
+for i in range(n):
+    if group[i] != -1:
+        j = i
+        while True:
+            a = j
+            j = group[j]
+            group[a] = -1
+            if j == i:
+                break
+        friend += 1
 print(friend)
