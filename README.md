@@ -12,7 +12,7 @@
 |105/10/29|定時k彈|[c296](https://zerojudge.tw/ShowProblem?problemid=c296)|✅|
 |105/10/29|棒球遊戲|[c297](https://zerojudge.tw/ShowProblem?problemid=c297)|⛔|
 |106/03/04|秘密差|[c290](https://zerojudge.tw/ShowProblem?problemid=c290)|✅|
-|106/03/04|小群體|[c291](https://zerojudge.tw/ShowProblem?problemid=c291)|⛔|
+|106/03/04|小群體|[c291](https://zerojudge.tw/ShowProblem?problemid=c291)|✅|
 |106/03/04|數字龍捲風|[c292](https://zerojudge.tw/ShowProblem?problemid=c292)|✅|
 |106/03/04|基地台|[c575](https://zerojudge.tw/ShowProblem?problemid=c575)|⛔|
 |106/10/28|邏輯運算子|[c461](https://zerojudge.tw/ShowProblem?problemid=c461)|⚠|
@@ -61,5 +61,5 @@
 |110/01|飛黃騰達|[f608](https://zerojudge.tw/ShowProblem?problemid=f608)|⛔|
 
 ## Total
-|✅|12|⚠|3|⛔|7|
+|✅|13|⚠|3|⛔|7|
 |--|--|--|--|--|--|
