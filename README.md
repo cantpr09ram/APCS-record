@@ -36,7 +36,7 @@
 |108/02|函數運算式求值||🈚|
 |108/02|帶者板凳排雞排的高人||🈚|
 |108/06|籃球比賽|[e286](https://zerojudge.tw/ShowProblem?problemid=e286)|✅|
-|108/06|機器人的路徑|[e287](https://zerojudge.tw/ShowProblem?problemid=e287)|⛔|
+|108/06|機器人的路徑|[e287](https://zerojudge.tw/ShowProblem?problemid=e287)|⚠|
 |108/06|互補CP||🈚|
 |108/06|美麗的彩帶|[e289](https://zerojudge.tw/ShowProblem?problemid=e289)|⛔|
 |108/10|樂曲修改||🈚|
