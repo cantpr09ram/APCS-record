@@ -15,7 +15,7 @@ soft_bag = [0 for i in range(5)]
 
 while a != 0:
     i += 1
-    if i == 8:
+    if i > 8:
         i = i%8
         j += 1
 
@@ -30,7 +30,7 @@ while a != 0:
         
         if good == 3:
             good = 0
-            soft_bag = []
+            soft_bag = [0 for i in range(5)]
     elif player == 'HR':
         score += len(soft_bag)+1
         soft_bag = []
