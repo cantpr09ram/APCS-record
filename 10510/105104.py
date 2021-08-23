@@ -1,4 +1,4 @@
-#solution1
+#solution1 5%
 game = []
 for i in range(9):
     game.append([j for j in input('').split(' ')])
@@ -45,7 +45,7 @@ while a != 0:
 
 print(score)      
 
-#solution2
+#solution2 0%
 
 game = []
 for i in range(9):
