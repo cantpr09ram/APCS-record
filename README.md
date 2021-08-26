@@ -21,8 +21,8 @@
 |106/10/28|物品堆疊|[f638](https://zerojudge.tw/ShowProblem?problemid=c471)|⛔|
 |107/02|||🈚|
 |107/02|||🈚|
-|107/02|支點切割|[c461](https://zerojudge.tw/ShowProblem?problemid=f638)|🈚|
-|107/02|階梯數字|[c543](https://zerojudge.tw/ShowProblem?problemid=c543)|🈚|
+|107/02|支點切割|[c461](https://zerojudge.tw/ShowProblem?problemid=f638)|⛔|
+|107/02|階梯數字|[c543](https://zerojudge.tw/ShowProblem?problemid=c543)|⛔|
 |107/06|||🈚|
 |107/06|||🈚|
 |107/06|工作排程||🈚|
