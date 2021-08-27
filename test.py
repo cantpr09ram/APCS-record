@@ -38,8 +38,10 @@ for i in range(5):
     else:
         print('x')
         '''
+'''
 a, b,c,d = 0, 0 ,0 ,1
 
 for i in range(4):
     c, d, a, b = b, c, d, a
     print(a,b,c,d)
+'''

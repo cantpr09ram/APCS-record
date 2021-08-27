@@ -11,11 +11,16 @@ def OR(a : int, b : int) -> int:
         return 0
 
 def XOR(a : int, b : int) -> int:
-    if a ^ b > 0:
+    if a > 0:
+        a = 1
+    if b > 0:
+        b = 1
+    if a != b:
         return 1
     else:
         return 0
 a, b, c = map(int, input('').split(' '))
+print(a,b,c)
 bools = False
 if AND(a,b) == c:
     print('AND')
