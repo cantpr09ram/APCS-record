@@ -15,7 +15,7 @@
 |106/03/04|小群體|[c291](https://zerojudge.tw/ShowProblem?problemid=c291)|✅|
 |106/03/04|數字龍捲風|[c292](https://zerojudge.tw/ShowProblem?problemid=c292)|✅|
 |106/03/04|基地台|[c575](https://zerojudge.tw/ShowProblem?problemid=c575)|⛔|
-|106/10/28|邏輯運算子|[c461](https://zerojudge.tw/ShowProblem?problemid=c461)|⚠|
+|106/10/28|邏輯運算子|[c461](https://zerojudge.tw/ShowProblem?problemid=c461)|✅|
 |106/10/28|交錯字串|[c462](https://zerojudge.tw/ShowProblem?problemid=c462)|⚠|
 |106/10/28|樹狀圖分析|[c463](https://zerojudge.tw/ShowProblem?problemid=c463)|⛔|
 |106/10/28|物品堆疊|[f638](https://zerojudge.tw/ShowProblem?problemid=c471)|⛔|
